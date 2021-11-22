@@ -110,7 +110,7 @@ void generate_xorxor(float *x, float *y, int i) {
 ```
 ## Updated Ground Truth Values for Training and Evaluation
 Expected result is for Error to decrease with each run.
-For comparison, values of XOR-AND are left uncommented.
+For comparison, values of XOR-AND are left commented out.
 
 ```
 run_ann(&net, x0);
