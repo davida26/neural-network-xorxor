@@ -6,7 +6,7 @@ System consists of two XOR Gate Constructions, 3 Inputs, and 2 Outputs.
 ![XOR-XOR System with two XOR Gate Constructions Operating 3 Inputs and 2 Outputs](/xor-xor.png)
 
 ## I/O
-| XOR-AND |    |    | Output 1  | Output 2  |
+| XOR-XOR |    |    | Output 1  | Output 2  |
 |---------|----|----|-----------|-----------|
 | x1      | x2 | x3 | x1 XOR x2 | x2 XOR x3 |
 | 0       | 0  | 0  | 0         | 0         |
