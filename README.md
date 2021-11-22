@@ -3,7 +3,7 @@ The below defines a code sample written in C as a proposed solution to replicate
 System consists of two XOR Gate Constructions, 3 Inputs, and 2 Outputs.
 
 ## XOR-XOR System
-![XOR-XOR System with two XOR Gate Constructions Operating 3 Inputs and 2 Outputs](/blob/main/xorxor.png)
+![XOR-XOR System with two XOR Gate Constructions Operating 3 Inputs and 2 Outputs](/xorxor.png)
 
 ## Function Definition for Ground Truth Table
 ```
