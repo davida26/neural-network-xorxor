@@ -101,66 +101,66 @@ For comparison, values of XOR-AND are left uncommented.
 
 ```
 run_ann(&net, x0);
-				ground_truth[0] = 0.0;
-				ground_truth[1] = 0.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+ground_truth[0] = 0.0;
+ground_truth[1] = 0.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x1);
-				//ground_truth[0] = 1.0;
-				//ground_truth[1] = 0.0;
-				ground_truth[0] = 1.0;
-				ground_truth[1] = 1.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x1);
+//ground_truth[0] = 1.0;
+//ground_truth[1] = 0.0;
+ground_truth[0] = 1.0;
+ground_truth[1] = 1.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x2);
-				//ground_truth[0] = 1.0;
-				//ground_truth[1] = 1.0;
-				ground_truth[0] = 1.0;
-				ground_truth[1] = 0.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x2);
+//ground_truth[0] = 1.0;
+//ground_truth[1] = 1.0;
+ground_truth[0] = 1.0;
+ground_truth[1] = 0.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x3);
-				//ground_truth[0] = 0.0;
-				//ground_truth[1] = 1.0;
-				ground_truth[0] = 0.0;
-				ground_truth[1] = 0.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x3);
+//ground_truth[0] = 0.0;
+//ground_truth[1] = 1.0;
+ground_truth[0] = 0.0;
+ground_truth[1] = 0.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x4);
-				//ground_truth[0] = 0.0;
-				//ground_truth[1] = 0.0;
-				ground_truth[0] = 0.0;
-				ground_truth[1] = 1.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x4);
+//ground_truth[0] = 0.0;
+//ground_truth[1] = 0.0;
+ground_truth[0] = 0.0;
+ground_truth[1] = 1.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x5);
-				//ground_truth[0] = 1.0;
-				//ground_truth[1] = 0.0;
-				ground_truth[0] = 1.0;
-				ground_truth[1] = 0.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x5);
+//ground_truth[0] = 1.0;
+//ground_truth[1] = 0.0;
+ground_truth[0] = 1.0;
+ground_truth[1] = 0.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x6);
-				//ground_truth[0] = 1.0;
-				//ground_truth[1] = 0.0;
-				ground_truth[0] = 1.0;
-				ground_truth[1] = 1.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x6);
+//ground_truth[0] = 1.0;
+//ground_truth[1] = 0.0;
+ground_truth[0] = 1.0;
+ground_truth[1] = 1.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 
-				run_ann(&net, x7);
-				//ground_truth[0] = 0.0;
-				//ground_truth[1] = 0.0;
-				ground_truth[0] = 0.0;
-				ground_truth[1] = 1.0;
-				Output_Error(2, &net, ground_truth, &error);
-				net_error = net_error + error;
+run_ann(&net, x7);
+//ground_truth[0] = 0.0;
+//ground_truth[1] = 0.0;
+ground_truth[0] = 0.0;
+ground_truth[1] = 1.0;
+Output_Error(2, &net, ground_truth, &error);
+net_error = net_error + error;
 ```
 
 ## Result Output
